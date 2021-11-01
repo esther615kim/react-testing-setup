@@ -20,7 +20,7 @@ color:#ccc;
 font-size:12px;`
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  const [count, setCounter] = useState(0);
   return (
     <div className="App">
       <header className="App-header">
@@ -28,10 +28,16 @@ function App() {
         <h4>Increment Counter🎅</h4>
         <div>
           {/* 테스트1 */}
-          <div data-testid="counter">{counter}</div>
+          <div data-testid="counter">{count}</div>
           <div>
-            <Button>+</Button>
-            <Button>-</Button>
+            {/* 테스트2,3 */}
+            <Button onClick={() => { setCounter((count) => count + 1) }}
+              data-testid="plus-button">+</Button>
+            <Button onClick={() => {
+              if (!count) return;// 다른 방법은?
+              setCounter((count) => count - 1)
+            }}
+              data-testid="minus-button">-</Button>
           </div>
           <Button>on &#47; off</Button>
 
