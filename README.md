@@ -2,7 +2,7 @@
 
 
 ### Goals
-- To pratice TDD process in React 
+- To practice TDD process in React 
 - To test React Components with JEst
 
 ### 📗 Updates
