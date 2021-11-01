@@ -1,11 +1,11 @@
-### 3-week react-testing-library study 📲
+## 3-week react-testing-library study 📲
 
 
-## ⚽ Goals
+### Goals
 - To pratice TDD process in React 
 - To test React Components with JEst
 
-## 📗 Updates
+### 📗 Updates
 
 | WK | Project | Status | 
 | :--: | :-----------------: | :------------: |
