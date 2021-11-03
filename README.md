@@ -1,4 +1,4 @@
-## react-testing-library setup 📲
+## react-testing-library setup and prep 📲
 
 
 ### Goals
