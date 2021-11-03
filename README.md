@@ -1,15 +1,11 @@
-## 3-week react-testing-library study 📲
+## react-testing-library setup 📲
 
 
 ### Goals
-- To practice TDD process in React 
 - To test React Components with Jest
-
+- react-testing-setup for 3-week React TDD group study (https://github.com/esther615kim/react-test-savage)
 ### 📗 Updates
 
 | WK | Project | Status | 
 | :--: | :-----------------: | :------------: |
 |  Prep | Increment Counter  | Completed/updated |   
-|  WK1 |              |     |   
-|  WK2  |               |     |    
-|  WK3  |               |     |    
